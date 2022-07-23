@@ -13,7 +13,7 @@ global.timer = 1800000
 // Symbols that are excluded when adding a prefix (Don't change it)
 global.evaluate_chars = ['=>', '~>', '<', '>', '$']
 // Country code that will be automatically blocked by the system, when sending messages in private chat
-global.blocks = ['91', '92', '212']
+global.blocks = ['61', '60', '62']
 // Put target jid to forward friends story
 global.forwards = '6285221100126@c.us'
 // Get neoxr apikey by registering at https://api.nxr.my.id
@@ -22,17 +22,17 @@ global.Api = new (require('./neoxrApi'))('2lleJx')
 global.chatai_bid = '164728'
 global.chatai_key = 'MKPsfkgXLZPGrWoH'
 // Footer text
-global.footer = 'ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ɴᴇᴏxʀ ッ'
+global.footer = 'ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ NOUREDDINE OUAFY ッ'
 // Global status
 global.status = Object.freeze({
-   wait: Func.texted('bold', 'Processed . . .'),
-   invalid: Func.texted('bold', 'URL is Invalid!'),
-   wrong: Func.texted('bold', 'Wrong format!'),
-   getdata: Func.texted('bold', 'Scraping metadata . . .'),
-   fail: Func.texted('bold', 'Can\'t get metadata!'),
-   error: Func.texted('bold', 'Error occurred!'),
-   errorF: Func.texted('bold', 'Sorry this feature is in error.'),
-   premium: Func.texted('bold', 'This feature only for premium user.'),
+   wait: Func.texted('bold', 'المرجو الانتظار  . . .'),
+   invalid: Func.texted('bold', 'هناك خطأ في الرابط !'),
+   wrong: Func.texted('bold', 'هناك مشكلة 😞!'),
+   getdata: Func.texted('bold', 'حذث خطأ ما المرجو مراسلة صاحب البوت  . . .'),
+   fail: Func.texted('bold', 'خطأ حذث ما المرجو الاعادة لاحقا وليس الان 😒!'),
+   error: Func.texted('bold', 'اوووبس ماذا جرى هناك خطأ ما آسفون قم بالاعادة لاحقا عزيزي !'),
+   errorF: Func.texted('bold', 'آسفون هذه الميزة حذث فيها خطأ ما .'),
+   premium: Func.texted('bold'.'),
    owner: Func.texted('bold', 'This command only for owner.'),
    god: Func.texted('bold', 'This command only for Master'),
    group: Func.texted('bold', 'This command will only work in groups.'),
