@@ -5,7 +5,7 @@ exports.run = {
       isPrefix
    }) => {
       let rows = [{
-         title: 'DOWNLOADER',
+         title: 'قسم التحميلات',
          rowId: `${isPrefix}menutype 1`,
          description: ``
       }, {
@@ -21,11 +21,11 @@ exports.run = {
          rowId: `${isPrefix}menutype 4`,
          description: ``
       }, {
-         title: 'OWNER TOOLS',
+         title: 'قسم بخاص بصاحب البوت',
          rowId: `${isPrefix}menutype 5`,
          description: ``
       }, {
-         title: 'SPECIAL',
+         title: 'قسم اوامر مهمة',
          rowId: `${isPrefix}menutype 6`,
          description: ``
       }]
